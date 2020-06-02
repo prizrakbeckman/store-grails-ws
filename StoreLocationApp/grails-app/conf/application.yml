@@ -140,5 +140,5 @@ server:
     port: 8091
 
 storeapp:
-    appid: aGQZ9qMJmh2QOWGmuNw0RhZvPcN4Lmt4FUFdIc4ltf6d0Bopeq2IuhyGB3ihr1P9
-    url: https://sandbox.uberall.com/api/locations?max=
+    appid:
+    url: 
