@@ -48,10 +48,4 @@ class StoreAppService implements GrailsConfigurationAware {
         }
     }
 
-    //TODO to adapt this method
-     /* URI retrieveStores() {
-        UriBuilder uriBuilder = UriBuilder.of('/')
-                .queryParam('privateKey', appid)
-         uriBuilder.build()
-    } */
 }
