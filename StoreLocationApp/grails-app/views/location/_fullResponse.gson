@@ -1,0 +1,12 @@
+package location
+
+import model.FullResponse
+
+model{
+   FullResponse fullResponse
+}
+
+json{
+    status fullResponse.status
+    response fullResponse.response
+}

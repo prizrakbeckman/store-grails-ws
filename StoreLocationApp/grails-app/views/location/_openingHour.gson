@@ -1,0 +1,18 @@
+package location
+
+import model.OpeningHour
+
+model {
+    OpeningHour openingHour
+}
+json {
+
+    dayOfWeek openingHour.dayOfWeek
+
+    from1 openingHour.from1
+
+    to1 openingHour.to1
+
+}
+
+json g.render(openingHour)

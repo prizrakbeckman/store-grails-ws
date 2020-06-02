@@ -1,0 +1,10 @@
+import model.FullResponse
+
+model{
+//    Iterable<Location> locations
+    FullResponse fullResponse
+}
+
+json {
+    locations tmpl.location('locations',fullResponse.response.locations)
+}

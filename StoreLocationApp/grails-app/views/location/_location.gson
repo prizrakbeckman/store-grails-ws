@@ -1,0 +1,66 @@
+import model.Location
+
+model {
+    Location location
+}
+json {
+    name location.name
+    city location.city
+    zip location.zip
+    streetAndNumber location.streetAndNumber
+    openingHours g.render(location.openingHours)
+    keywords location.keywords
+    lat location.lat
+    lng location.lng
+    identifier location.identifier
+    id location.id
+    dateCreated location.dateCreated
+    lastUpdated location.lastUpdated
+    street location.street
+    streetNo location.streetNo
+    addressExtra location.addressExtra
+    cellphone location.cellphone
+    fax location.fax
+    website location.website
+    email location.email
+    descriptionShort location.descriptionShort
+    descriptionLong location.descriptionLong
+    openingHoursNotes location.openingHoursNotes
+    lastSyncStarted location.lastSyncStarted
+    country location.country
+    imprint location.imprint
+    addressDisplay location.addressDisplay
+    autoSync location.autoSync
+    skipFacebookPicturesUpdate location.skipFacebookPicturesUpdate
+    phone location.phone
+    status location.status
+    cleansingStatus location.cleansingStatus
+    cleansingInvalidDataReason location.cleansingInvalidDataReason
+    photos g.render(location.photos)
+    labels location.labels
+    categories location.categories
+    locationSyncable location.locationSyncable
+    businessId location.businessId
+    socialPostId location.socialPostId
+    hasFacebook location.hasFacebook
+    endDate location.endDate
+    averageRating location.averageRating
+    specialOpeningHours g.render(location.specialOpeningHours)
+    openNow location.openNow
+    attributes location.attributes
+    activeDirectoriesCount location.activeDirectoriesCount
+    activeListingsCount location.activeListingsCount
+    publishedListingsCount location.publishedListingsCount
+    profileCompleteness location.profileCompleteness
+    missingMandatoryFields location.missingMandatoryFields
+    directoriesMissingConnect location.directoriesMissingConnect
+    listingsInSync location.listingsInSync
+    listingsBeingUpdated location.listingsBeingUpdated
+    visibilityIndex location.visibilityIndex
+    dataPoints location.dataPoints
+    province location.province
+    suggestionsForFieldsAvailable location.suggestionsForFieldsAvailable
+
+}
+
+json g.render(location)

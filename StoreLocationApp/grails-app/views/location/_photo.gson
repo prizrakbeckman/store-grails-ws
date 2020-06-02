@@ -1,0 +1,26 @@
+package location
+
+import model.Photo
+
+model{
+    Photo photo
+}
+json {
+    id photo.id
+    dateCreated photo.dateCreated
+    repoKey photo.repoKey
+    locationId photo.locationId
+    description photo.description
+    identifier photo.identifier
+    main photo.main
+    logo photo.logo
+    type photo.type
+    url photo.url
+    publicUrl photo.publicUrl
+    cropHeight photo.cropHeight
+    cropWidth photo.cropWidth
+    cropOffsetX photo.cropOffsetX
+    cropOffsetY photo.cropOffsetY
+}
+
+json g.render(photo)

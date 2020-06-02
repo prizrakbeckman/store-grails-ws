@@ -1,0 +1,15 @@
+package location
+
+import model.Response
+
+model{
+    Response response
+}
+json {
+    offset response.offset
+    max response.max
+    count response.count
+    locations response.locations
+}
+
+json g.render(response)
